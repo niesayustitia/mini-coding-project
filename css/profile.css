@@ -129,6 +129,9 @@ header h1 a img{
     
 }
 .visi-misi{
+    display: block;
+}
+.visi-misi-block{
     display: flex;
     justify-content: space-between;
 }
