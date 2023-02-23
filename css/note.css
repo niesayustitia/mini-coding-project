@@ -1,0 +1,26 @@
+.slde img{
+    height: 200px;
+    width: 100%;
+}
+
+/* tablet */
+@media screen and(min-width: 768px){
+    .slider img{
+        height: 40px;
+        width: 100%;
+    }
+    .headquarter-gallery{
+        flex-direction: row;
+    }
+    .headquarter-gallery img{
+
+    }
+}
+
+/* desktop */
+@media screen and (min-width: 1024px){
+    .headquarter-gallery img{
+        height: 200px;
+        width: 100%;
+    }
+}
